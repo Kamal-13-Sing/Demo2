@@ -18,4 +18,14 @@ public class DemoExampleTest {
 
     }
 
+    @Test
+    public void productTest(){
+
+        int result = DemoExample.product(5,5);
+        int expected = 25;
+
+        Assert.assertEquals(expected,result);
+
+    }
+
 }
